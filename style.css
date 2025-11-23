@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.lable input{
+    border: none;
+    border-radius: 20px;
+    padding:15px;
+    background-color: rgba(128, 128, 128, 0.178);
+    width: 950px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.lable input:hover{
+    border: 2px solid black;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+h5{
+    font-size: 17px;
+    position: absolute;
+    top: 25px;
+    right: 220px;
+}
+h3{
+    color: rgba(128, 128, 128, 0.979);
+    position: absolute;
+    right: 145px;
+    top: 25px;
+}
+button{
+    margin-top: -39px;
+    margin-right: 9px;
+    float: right;
+    border: none;
+    color: gray;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 250px;
+}
+button:hover{
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: gray;
+    transition: all 0.2s ease-in-out;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+li{
+    margin-left: 35px;
+    display: inline;
+}
+hr{
+    margin-top: 20px;
+}
+h1{
+    font-size: 40px;
+    margin-top: 230px;
+    margin-left: 100px;
+}
+p{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.type{
+    font-size: 15px;
+    position: absolute;
+    left: 410px;
+    top: 440px;
+}
+input{
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.178);
+    padding: 15px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 100px;
+    transition: all 0.4s ease-in-out;
+}
+input:hover{
+    border: 2px solid black;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+.image img{
+    margin-right: 300px;
+    margin-top: -300px;
+    float: right;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    transition: all 0.4s ease-in-out;
+}
+.image img:hover{
+    box-shadow: 5px 5px 5px 5px gray;
+    transform: scale(1.1);
+}
+img{
+    border-radius: 10px;
+    margin-right:20px ;
+    margin-top: -300px;
+    float: right;
+    width: 250px;
+    height: 300px;
+    transition: all 0.4s ease-in-out;
+}
+img:hover{
+    box-shadow: 5px 5px 5px 5px gray;
+    transform: scale(1.1);
+}
